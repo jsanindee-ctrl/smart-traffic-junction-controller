@@ -17,17 +17,17 @@ The project implements three main operating modes:
 
 ### 1.Project Objectives
 
-The main objectives of this project are:
+* The main objectives of this project are:
 
-Implement multi-port digital I/O control for traffic lights and the countdown display.
+* Implement multi-port digital I/O control for traffic lights and the countdown display.
 
-Generate accurate timing using a hardware timer and a table-driven traffic phase sequence.
+* Generate accurate timing using a hardware timer and a table-driven traffic phase sequence.
 
-Handle pedestrian crossing requests using an external interrupt.
+* Handle pedestrian crossing requests using an external interrupt.
 
-Implement a deferred, single-crossing pedestrian request mechanism.
+* Implement a deferred, single-crossing pedestrian request mechanism.
 
-Read ambient light intensity using an LDR sensor and the microcontroller ADC.
+* Read ambient light intensity using an LDR sensor and the microcontroller ADC.
 
 ### 2.Hardware Components
 
