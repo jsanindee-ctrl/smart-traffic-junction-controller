@@ -9,9 +9,11 @@ The controller manages traffic flow across four road approaches: North, South, E
 
 The project implements three main operating modes:
 
-Normal Traffic Mode
-Pedestrian Crossing Mode
-Automatic Night Mode
+                                    Normal Traffic Mode
+                                    
+                                    Pedestrian Crossing Mode
+                                    
+                                    Automatic Night Mode
 
 ### 1.Project Objectives
 
@@ -26,6 +28,22 @@ Handle pedestrian crossing requests using an external interrupt.
 Implement a deferred, single-crossing pedestrian request mechanism.
 
 Read ambient light intensity using an LDR sensor and the microcontroller ADC.
+
+### 2.Hardware Components
+
+Arduino Uno
+
+ATmega328P microcontroller
+
+Traffic signal LEDs
+
+Pedestrian push button
+
+LDR sensor
+
+Countdown display
+
+Connecting wires and other circuit components
 
 Automatically switch between Normal Mode and Night Mode.
 
